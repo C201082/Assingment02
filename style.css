@@ -253,9 +253,58 @@ footer{
 
     .part-2 {
         
-         display: inline; 
+        display: inline; 
         
         margin-top: 25px;
         margin-left: 10px;
     }
+    footer{
+        display: inline;
+    }
+  }
+
+  @media screen and (max-width: 900px) and (min-width: 401px) {
+
+    header{
+        display: inline-block;
+        width: 400px;
+        height: 700px;
+        
+        
+    }
+    .s1 {
+        display: inline;
+        width:  380px;
+        height: 400px;
+        border-radius: 5px;
+        color: white;
+        font-size: 70%;
+    }
+
+    .s2 {
+        height: 380px;
+        width: 400px;
+        border-radius: 0px;
+        display: inline;
+    }
+
+    .s2 img {
+        height: 250px;
+       
+    }
+    
+    
+
+    .part-2 {
+        
+        display: inline; 
+        
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    footer{
+        display: inline;
+    }
+  
+   
   }
